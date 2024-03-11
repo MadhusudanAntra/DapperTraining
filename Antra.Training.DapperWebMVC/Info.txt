@@ -1,0 +1,27 @@
+﻿ORM= Object relational mapping.
+micro orm, if database already exist and project in not large project.
+if yo have team which is not good in EF core 
+
+dapper:- it collection of extension methods which are extended on IDBConnection interface...
+it uses linq to work with the extension methods
+
+
+Dapper, SqlClient(sql server) =>SqlConnection=>IDbConnection helps you to connect with the database
+using connection string
+
+
+A -> B
+public A demo()
+{
+  new B();
+}
+
+
+
+
+1. Execute => DML (insert, update and delete)
+2. Query => select
+3. QueryFirst, QueryFirstOrDefault
+
+
+

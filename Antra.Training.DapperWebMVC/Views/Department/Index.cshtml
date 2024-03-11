@@ -1,0 +1,23 @@
+﻿
+@model IEnumerable<Department>
+
+@{
+
+    <table class="table">
+    <thead>
+    <tr>
+    <th>Id</th><th>Name</th><th>Location</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var m in Model)
+    {
+        <tr>
+        <td>@m.Id</td><td>@m.Name</td> <td>@m.Location</td>
+        </tr>
+    }
+    </tbody>
+    </table>
+    
+
+}
